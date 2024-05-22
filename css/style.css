@@ -1,0 +1,421 @@
+/* Start global variabls */
+:root {
+    --main-color: #f25454;
+}
+
+/* End global variabls */
+
+
+/* start nav section */
+nav .navbar-nav .nav-link.active,
+nav .navbar-nav .nav-link.show {
+    color: var(--main-color);
+}
+nav .navbar-toggler:focus
+{
+    box-shadow:none;
+}
+nav .nav-link {
+    color: #fff;
+    transition: all 0.5s;
+}
+
+nav .nav-link:focus,
+nav .nav-link:hover {
+    color: var(--main-color);
+}
+
+nav .fa-solid {
+    font-size: 2rem;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+nav .fa-solid:hover {
+    color: var(--main-color);
+}
+
+/* End nav section */
+
+/* start Header section */
+
+#home .carousel-caption h2 {
+    font-size: 3rem;
+}
+
+#home .carousel-caption {
+    padding: 0;
+    bottom: 40%;
+}
+
+#home .carousel-left-part {
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+#home .carousel-control-prev,
+#home .carousel-control-next {
+    position: unset;
+    opacity: 1;
+    width: unset;
+    border: 1px solid white;
+
+}
+
+.carousel-btn-hov {
+    position: relative;
+    padding: 15px;
+}
+
+.layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 100%;
+    background-color: white;
+    transition: 0.5s all;
+    z-index: -1;
+}
+
+.carousel-control-next:hover .layer,
+.carousel-control-prev:hover .layer {
+    right: 0;
+    z-index: 1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: unset;
+}
+
+.carousel-control-next i,
+.carousel-control-prev i {
+
+    transition: 0.5s all;
+}
+
+.carousel-control-next:hover i,
+.carousel-control-prev:hover i {
+    color: var(--main-color);
+    z-index: 2;
+}
+
+/* End Header section */
+
+
+
+/* Start About section */
+.mirge_text h2 {
+    font-size: 6rem;
+    color: #f1f1f1;
+}
+
+.mirge_text h3 {
+    font-size: 3rem;
+}
+
+/* .mirge_text h3::after
+{
+    content: "";
+    position: absolute;
+    left: 30%;
+    bottom: -2rem;
+    background-color: #f1f1f1;
+    width: 40%;
+    height: 3px;;
+}
+.mirge_text:hover h3::after
+{
+    width: 80%;
+} */
+.mirge_text .bord {
+    width: 3rem;
+    height: 3px;
+    background-color: #f1f1f1;
+    margin: auto;
+    margin-top: 0.8rem;
+    transition: all 0.5s;
+}
+
+.mirge_text:hover .bord {
+    width: 20%;
+}
+
+.progress-bar {
+    background-color: var(--main-color);
+}
+
+.prog-presentage {
+    width: 95%;
+}
+
+#about .progress-skills p:first-letter {
+    color: var(--main-color);
+}
+
+/* End About section */
+
+/* Start Team section */
+
+
+.card-team:hover .img-card img {
+    transform: scale(1.2);
+}
+
+.icons-card {
+    background-color: rgba(242, 84, 84, 0.85);
+    transition: all 1s;
+}
+
+.card-team:hover .icons-card {
+    opacity: 1 !important;
+}
+
+.card-team h5, .card-team i, .img-card img {
+    transition: all 1s;
+}
+
+.card-team:hover h5 {
+    color: var(--main-color);
+}
+
+.card-team i:hover  {
+    color: black;
+}
+.btn-contact-hov {
+    background-color: var(--main-color);
+    transition: all 0.5s;
+}
+
+.btn-contact-hov:hover {
+    background-color: #b95252;
+    box-shadow: 5px 5px rgba(185, 82, 82, 0.4);
+}
+
+#team .btn:first-child:active,
+#team .btn:focus-visible {
+    background-color: #b95252;
+    border: none;
+}
+
+/* End Team section */
+
+/* Start Services section */
+#services {
+    background-color: #FAFAFA;
+}
+
+#services .service-content i {
+    color: var(--main-color);
+}
+
+#services .service-content h5 {
+    transition: all 0.5s;
+}
+
+#services .service-content:hover h5 {
+    color: var(--main-color);
+}
+
+/* End Services section */
+
+/* Start Blog section */
+#blog .carousel-indicators [data-bs-target] {
+    width: 7rem;
+    height: 7rem;
+}
+
+.carousel-indicators .active {
+    width: 10rem !important;
+    height: 10rem !important;
+}
+
+.client-info h3 {
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0;
+}
+
+.client-info {
+    display: none;
+}
+
+.indicator-item img.active:first-of-type+div {
+    display: block;
+}
+
+.single-box p {
+    width: 50%;
+    margin: auto;
+}
+
+/* End Blog section */
+
+/* start Contact section */
+#contact {
+    background-color: #FAFAFA;
+}
+
+#contact i {
+    color: var(--main-color);
+}
+
+.hov-contact h3 {
+    transition: all 0.5s;
+}
+
+#contact .hov-contact:hover h3 {
+    color: var(--main-color);
+}
+
+#contact form button {
+    background-color: var(--main-color);
+}
+
+/* End Contact section */
+
+/* Start Footer section */
+
+
+
+footer li:hover a {
+    color: var(--main-color) !important;
+}
+
+footer .footer-content-4 a,
+footer i,
+footer li a {
+    transition: all 0.5s;
+}
+
+footer a:hover {
+    color: var(--main-color) !important;
+    border-color: var(--main-color) !important;
+}
+
+footer i:hover {
+    color: var(--main-color);
+}
+
+
+/* End Footer section */
+
+
+
+
+/* media Query */
+
+@media screen and (max-width: 600px) {
+
+    html,
+    body {
+        font-size: 12px;
+    }
+
+    #home .carousel-caption h2 {
+        font-size: 20px;
+    }
+
+    #home .carousel-caption {
+        bottom: 30%;
+    }
+
+    .carousel-btn-hov {
+        padding: 6px;
+    }
+
+    #about .progress-skills {
+        margin-top: 2rem;
+    }
+
+    #team .card-team h5 {
+        font-size: 18px;
+    }
+    #team .card-team i {
+        font-size: 18px;
+    }
+
+    #team .card-team p {
+        font-size: 12px;
+    }
+
+    #team p,
+    #about p, #team p,  #services p,  #blog p, #contact p {
+        width: 100% !important;
+    }
+
+    #blog .carousel-indicators [data-bs-target] {
+        width: 5em;
+        height: 5em;
+    }
+
+    .carousel-indicators .active {
+        width: 7rem !important;
+        height: 7rem !important;
+    }
+    .mirge_text h2
+    {
+        font-size: 50px ;
+    }
+    .mirge_text h3
+    {
+        font-size: 25px ;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+
+    html,
+    body {
+        font-size: 12px;
+    }
+
+    #home .carousel-caption {
+        bottom: 30%;
+    }
+
+    #about .progress-skills {
+        margin-top: 2rem;
+    }
+
+    #team .card-team h5 {
+        font-size: 24px;
+    }
+
+    #team .card-team p {
+        font-size: 16px;
+    }
+    #team .card-team i {
+        font-size: 18px;
+    }
+
+    #team p,
+    #about p, #team p,  #services p,  #blog p, #contact p {
+        width: 100% !important;
+    }
+    #blog .carousel-indicators [data-bs-target] {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .carousel-indicators .active {
+        width: 9rem !important;
+        height: 9rem !important;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+    html,
+    body {
+        font-size: 13px;
+    }
+
+    #team p,
+    #about p, #team p,  #services p,  #blog p, #contact p {
+        width: 100% !important;
+    }
+
+}
